@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario productos</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+    <header>
+    </header>
+    <main class="body__main"> 
+        <h1>Formulario gestión de productos</h1>
+        <form class="body__form">
+            <legend class="form__legend1"> Administración individual de productos </legend>
+            <legend class="form__legend2"> Diligencie la siguiente información para crear un producto</legend>
+            <ul>
+                <li> <label> Nombre </label> <input id="ul__nombre" type="text" name="nombre" placeholder="Aquí el nombre del producto" size="26"> </li>
+                <li> <label> Precio </label> <input id="ul__precio" type="number" name="precio" placeholder="Aquí el precio del producto"> </li>
+                <li> <label> Cantidad </label> <input id="ul__cantidad" type="number" name="cantidad" placeholder="Aquí el número de unidades"> </li>
+                <li> <label> Categoria </label>
+                    <select name="categoria">
+                        <option> Seleccione una categoría </option>
+                        <option> Alimentación</option>
+                        <option> Útiles</option>
+                        <option> Aseo </option>
+                        <option> Hogar </option>
+                        <option> Mascotas </option>
+                    </select>
+                </li>
+            </ul>
+            <button id="form__button" type="submit">
+                Crear
+            </button>
+        </form>
+    </main>
+    <section class="main__section">
+        <table id="section__table">
+            <thead>
+                <tr>
+                    <th class="table__th__nombre"> Nombre </th>
+                    <th class="table__th__precio"> Precio </th>
+                    <th class="table__th__cantidad"> Cantidad </th>
+                    <th class="table__th__categoria"> Categoria </th>
+                    <th class="table__th__modificaciones"> Modificaciones </th>
+                </tr>
+            </thead>
+            <tbody id="table__tbody">
+            </tbody>
+        </table>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

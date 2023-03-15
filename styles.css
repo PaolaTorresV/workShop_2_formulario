@@ -1,0 +1,418 @@
+* {
+    background-color: blanchedalmond;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-supermarket-big-promotion-cute-cartoon-banner-image_196194.jpg");
+    /* object-fit: cover;
+    object-position: top; */
+    border-radius: 9%;
+    width: 1550px;
+    height: 200px;
+    margin: 20px;
+    filter: brightness(1.0);
+}
+
+.body__main {
+    height: 598px;
+    width: 640px;
+    font-family: 'Open Sans';
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 250px;
+    box-shadow: 0 0 10px;
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+}
+
+.body__form {
+    height: 498px;
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    box-sizing: border-box;
+    border-color: black;
+    border-radius: 30px;
+    background-color: rgb(226, 124, 233);
+
+}
+
+.form__legend1 {
+    background-color: rgb(226, 124, 233);
+    font-size: 25px;
+    text-transform: initial;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    padding-top: 20px;
+}
+
+.form__legend2 {
+    background-color: rgb(226, 124, 233);
+    font-size: 22px;
+    text-align: left;
+    height: 50px;
+    width: 500px;
+    padding-top: 20px;
+    margin-left: -5px;
+}
+
+ul {
+    background-color: rgb(226, 124, 233);
+    font-size: 22px;
+    height: 250px;
+    width: 500px;
+    padding-left: 30px;
+    padding-top: 20px;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+li {
+    background-color: rgb(226, 124, 233);
+
+}
+
+label {
+    background-color: rgb(226, 124, 233);
+    font-size: 22px;
+    display: block;
+}
+
+input,
+select {
+    border: 3px solid rebeccapurple;
+    border-radius: 10px;
+    vertical-align: bottom;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#ul__precio {
+    width: 14em;
+}
+
+#ul__cantidad {
+    font-size: 15px;
+    width: 15em;
+}
+
+#form__button {
+    background-color: blanchedalmond;
+    height: 60px;
+    width: 140px;
+    border-radius: 50px;
+    position: relative;
+    font-size: 20px;
+    border: 5px solid rebeccapurple;
+    margin-left: 150px;
+}
+
+#form__button:hover {
+    outline: auto;
+    cursor: pointer;
+    border: solid;
+}
+
+.main__section {
+    align-items: center;
+    margin: 20px;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#section__table {
+    width: 35%;
+    border: 3px solid;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0.3em;
+    border-collapse: separate;
+    border-spacing: 2px;
+    background-color: rgb(226, 124, 233);
+    box-shadow: 0 0 10px;
+
+}
+
+th,
+td {
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid;
+    padding: 0.3em;
+    font-size: 18px;
+}
+
+button {
+    background-color: blanchedalmond;
+    height: 30px;
+    width: 80px;
+    border-radius: 50px;
+    position: relative;
+    font-size: 16px;
+    border: 5px solid rebeccapurple;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* header{ como 
+        width: auto;
+        height: auto;
+    } COMO ADAPTAR EL HEADER */
+    header {
+        width: 350px;
+        height: 100px;
+        margin: 10px;
+        filter: brightness(1.0);
+    }
+
+    .body__main {
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 15px;
+        height: 500px;
+        width: 300px;
+    }
+
+    h1 {
+        align-items: flex-start;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .body__form {
+        display: block;
+        height: auto;
+        width: auto;
+        box-sizing: none;
+        border-color: blanchedalmond;
+        height: 400px;
+        width: 250px;
+        padding-left: 1px;
+    }
+
+    .form__legend1 {
+        background-color: rgb(226, 124, 233);
+        font-size: 20px;
+        text-transform: initial;
+        text-align: left;
+        height: 50px;
+        width: 200px;
+        padding-top: 1px;
+    }
+
+    .form__legend2 {
+        background-color: rgb(226, 124, 233);
+        font-size: 18px;
+        text-align: left;
+        height: 50px;
+        width: 200px;
+        margin-left: 2px;
+    }
+
+    ul {
+        background-color: rgb(226, 124, 233);
+        height: 250px;
+        width: 200px;
+        padding-left: 30px;
+        text-align: left;
+        justify-content: space-evenly;
+        margin-top: 15px;
+    }
+
+    label {
+        background-color: rgb(226, 124, 233);
+        font-size: 15px;
+    }
+
+    input,
+    select {
+        border: 2px solid rebeccapurple;
+        border-radius: 9px;
+        vertical-align: bottom;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    #ul__precio {
+        width: 13em;
+    }
+
+    #ul__cantidad {
+        font-size: 15px;
+        width: 13em;
+    }
+
+    #form__button {
+        background-color: blanchedalmond;
+        height: 50px;
+        width: 100px;
+        border-radius: 40px;
+        position: relative;
+        font-size: 18px;
+        border: 5px solid rebeccapurple;
+        margin-left: 15px;
+        top: -30px;
+    }
+
+    .main__section {
+        align-items: center;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        /* width: 300px; */
+        
+    }
+
+    #section__table {
+
+        height: 400px;
+        /* width: 300px; */
+        width: 100%;
+        table-layout:fixed;
+        font-size:12px;
+        /* display: grid;
+        grid-template-columns: 145px 145px;
+        grid-template-rows: 72px 72px 72px 72px 72px; */  
+    }
+
+    th,td{
+    width: 18%;
+    font-size:12px;
+    overflow:auto;
+    padding: 0;
+    }
+
+.table__th__nombre{
+    /* grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-area: th-nombre; */
+    table-layout:fixed;
+    /* width: 100%; */
+    width: 18%;
+    font-size:12px;
+    overflow:auto;
+    padding: 0;
+
+}
+.table__th__precio{
+    /* grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2; */
+    table-layout:fixed;
+    /* width: 100%; */
+    font-size:12px;
+    width: 15%;
+    padding: 0;
+    overflow:auto;
+
+}
+.table__th__cantidad{
+    /* width: 100%; */
+    font-size:12px;
+    width: 19%;
+    padding: 0;
+    overflow:auto;
+}
+.table__th__categoria{
+    /* width: 100%; */
+    font-size:12px;
+    padding: 0;
+    width: 21%;
+    overflow:auto;
+}
+.table__th__modificaciones{
+    /* width: 100%; */
+    font-size:12px;
+    padding: 0;
+    width: 27%;
+    overflow:auto;
+
+}
+.form__button__borrar{
+    margin: 0;
+    background-color: blanchedalmond;
+    height: 30px;
+    width: 60px;
+    border-radius: 40px;
+    position: relative;
+    font-size: 15px;
+    border: solid rebeccapurple;
+}
+.form__button__modificar{
+    margin-top: 1px;
+    margin-left: 0;
+    background-color: blanchedalmond;
+    height: 30px;
+    width: 60px;
+    border-radius: 40px;
+    position: relative;
+    font-size: 12px;
+    border: solid rebeccapurple;
+}
+.form__button__cargar{
+    margin: 0;
+    height: 29px;
+    width: 55px;
+    font-size: 12px;
+    border: solid rebeccapurple;
+}
+.form__table__input{
+    overflow:unset;
+    width: 40px;
+}
+.form__cell__name{
+    table-layout:fixed;
+    width: 18%;
+    font-size:12px;
+    overflow:auto;
+    padding: 0;
+}
+.form__cell__price{
+    table-layout:fixed;
+    font-size:12px;
+    width: 15%;
+    padding: 0;
+    overflow:auto;
+}
+.form__cell__quantity{
+    font-size:12px;
+    width: 19%;
+    padding: 0;
+    overflow:auto;
+}
+.form__cell__category{
+    font-size:12px;
+    padding: 0;
+    width: 21%;
+    overflow:auto;
+}
+.form__cell_modify{
+    font-size:12px;
+    padding: 0;
+    width: 27%;
+    overflow:auto;
+}
+
+}
